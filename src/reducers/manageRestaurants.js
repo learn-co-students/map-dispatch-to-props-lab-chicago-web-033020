@@ -1,6 +1,6 @@
 export default function manageRestaurants(state = {
   restaurants: []
-}, action) {
+  }, action) {
   switch (action.type) {
 
     case 'ADD_RESTAURANT':
